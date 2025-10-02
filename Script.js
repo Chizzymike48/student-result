@@ -5,6 +5,8 @@
     let assignment2 = parseFloat(document.getElementById("assignment2").value) || 0;
     let finalExam = parseFloat(document.getElementById("Exam").value) || 0;
 
+    console.log("studentName",studentName)
+
     // Average of assignments
     let assignmentAverage = (assignment1 + assignment2) / 2;
 
@@ -17,7 +19,7 @@
     if (finalGrade >= 70) {
       console.log ("You Passed");
     } else {
-      console.log ("You Failed and you will repeat this class>");
+      console.log ("You Failed and you will repeat this class");
     }
 
     console.log(finalExam >= 70)
